@@ -1,0 +1,26 @@
+.badge {
+    height: auto;
+    width: auto;
+    max-height: 70px;
+    max-width: 70px;
+}
+.attachment-info .thumbnail img.badge{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#media_file_label_settings #hideon,
+#media_file_label_settings #checkall{
+    margin: 0;
+}
+.wp-core-ui .attachment .thumbnail .imgdate{
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
